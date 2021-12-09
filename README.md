@@ -59,13 +59,18 @@ Create Node.js HTTP Server from scratch with dynamic urls, and deploy to heroku 
           "dev": "nodemon index"
         },
         npm start dev
-8. GITHUB: git init .
+8. Install moment  to reach date and time information
+  npm install moment
+9. GITHUB: git init .
          : git commit and push
+10. Install uuid generator  
+  npm install uuid
 ### Built with
 
 1. Node.js
 2. express.js
 3. nodemon.js
+4. uuid.js
 
 ## Author
 
