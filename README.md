@@ -12,31 +12,27 @@
 
 ## Overview
 
-- reference folder 
-  1. event_demo
-  2. fs_demo
-  3. http_demo
-  4. os_demo
-  5. path_demo
-  Build in modules explanation
+- middleware folder 
+  1. logger.js
 
-- public folder 
-  1. html pages: 404.html, about.html and index.html
-  2. CSS folder -> style.css
-  Pages to navigate
+- public folder - Static Pages to navigate
+  1. html pages: about.html and index.html
+  2. CSS folder -> style.css  
 
-- index.js  
-  Server with dynamic urls
+- routes/api folder
+  1. members.js - REST API endpoints
 
+- views folder -Template views - Server side render views
+  1. layouts/main.handlebars - Template Container
+  2. index.handlebars
 
 ## The challenge
 
-Create Node.js HTTP Server from scratch with dynamic urls, and deploy to heroku server
+Create Node.js HTTP Server  with dynamic urls, REST API and server render template with Express.js
 
 ### Links
 
-- Solution URL: [GitHub](https://github.com/tatjama/node_crash_course)
-- Live Site URL: [Heroku](https://powerful-savannah-08202.herokuapp.com/about.html)
+- Solution URL: [GitHub](https://github.com/tatjama/node_express_crash_course)
 
 ## My process
 
@@ -65,11 +61,12 @@ Create Node.js HTTP Server from scratch with dynamic urls, and deploy to heroku 
          : git commit and push
 10. Install uuid generator  
     npm install uuid
-11. Create Views
+11. Template - Create Server render Views
     - Instal Express Handlebars: 
         npm install express-handlebars
     - Link Bootstrap cdn at views/layout/main.handlebars
-12. 
+    Note: use exphbs.engine
+12. Create Form
 ### Built with
 
 1. Node.js

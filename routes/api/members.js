@@ -31,7 +31,10 @@ router.post('/', (req, res) => {
     }
 
     members.push(newMember);
-    res.json(members);    
+    res.json(members);
+
+    //Use with Template - Server render View 
+    //res.redirect('/')  
 })
 
 //Updated member
