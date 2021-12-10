@@ -51,26 +51,33 @@ Create Node.js HTTP Server from scratch with dynamic urls, and deploy to heroku 
 6.  Run file  
     node index
 7. Install nodemon.js with
-  npm install -D nodemon 
-  We have 2 ways for execution:
-   1. nodemon index
-   2. "scripts": {
+    npm install -D nodemon 
+    We have 2 ways for execution:
+    1. nodemon index
+    2. "scripts": {
           "start": "node index",
           "dev": "nodemon index"
         },
         npm start dev
 8. Install moment  to reach date and time information
-  npm install moment
+    npm install moment
 9. GITHUB: git init .
          : git commit and push
 10. Install uuid generator  
-  npm install uuid
+    npm install uuid
+11. Create Views
+    - Instal Express Handlebars: 
+        npm install express-handlebars
+    - Link Bootstrap cdn at views/layout/main.handlebars
+12. 
 ### Built with
 
 1. Node.js
 2. express.js
 3. nodemon.js
 4. uuid.js
+5. express-handlebars.js
+6. bootstrap.js
 
 ## Author
 
